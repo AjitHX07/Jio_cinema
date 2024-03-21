@@ -1,0 +1,539 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+#main_container {
+  width: 100%;
+}
+
+.stickyNav {
+  position: static;
+}
+nav {
+  width: 100%;
+  height: 67px;
+  background-color: antiquewhite;
+  display: flex;
+  border: 1px goldenrod;
+  background-color: black;
+
+  border: solid;
+}
+.nav_left {
+  width: 28%;
+  height: 70px;
+  background-color: black;
+}
+.nav_middle {
+  width: 39%;
+  height: 70px;
+  background-color: black;
+}
+
+.nav_right {
+  width: 37%;
+  height: 70px;
+  background-color: rgb(0, 0, 0);
+}
+
+nav div img {
+  padding-left: 48px;
+  padding-top: 18px;
+}
+.nav_button {
+  border: 2px solid rgb(193, 163, 98);
+  /* background-color: transparent; */
+  color: rgb(193, 163, 98);
+  border-radius: 30px;
+  padding: 6px 14px;
+  background-color: black;
+  position: relative;
+  left: 4px;
+  font-size: 0.75rem;
+  bottom: 14px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+div ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 23px;
+  color: white;
+  position: relative;
+  right: 85px;
+  top: 9px;
+  font-weight: bold;
+}
+.search {
+  background-color: #282525;
+  border-radius: 31px;
+  padding: 13px 65px;
+  border: none;
+  position: relative;
+  left: 39px;
+  bottom: 23px;
+}
+.search_svg {
+  width: 23px;
+  height: 23px;
+  position: relative;
+  right: 286px;
+  bottom: 16px;
+}
+.avatar {
+  width: 39px;
+  height: 44px;
+  position: relative;
+  right: 45px;
+  bottom: 8px;
+}
+.dropdown {
+  width: 15px;
+  height: 14px;
+  position: absolute;
+  left: 358px;
+  top: -13px;
+}
+.row-button {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+  width: 100%;
+  background-color: #000000;
+  height: 84px;
+  position: relative;
+}
+.row-button button {
+  border: none;
+  border-radius: 20px;
+  white-space: nowrap;
+  background-color: #4e4c4c;
+  height: 30px;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  position: relative;
+  left: 51px;
+  color: white;
+  top: 18px;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 9px 10px 14px 14px;
+}
+
+.row-button button:hover {
+  background-color: #d9d6e5;
+  color: #333436;
+  cursor: pointer;
+}
+
+.ruler {
+  background-color: antiquewhite;
+  width: 100%;
+}
+#ruler {
+  width: 100%;
+  height: 0.5px;
+  background-color: #444548;
+}
+
+.bar3_div {
+  width: 100%;
+  height: 314px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+
+  gap: 10px;
+}
+.bar1 {
+  height: 314px;
+  background-color: #000000;
+  flex-basis: 30%;
+}
+.bar2 {
+  height: 314px;
+  background-color: #000000;
+  flex-basis: 41%;
+}
+.bar3 {
+  height: 314px;
+  background-color: #000000;
+  flex-basis: 30%;
+}
+#img3div {
+  width: 100%;
+  height: 314px;
+  border-radius: 20px;
+}
+.tv_channel {
+  display: flex;
+  gap: 10px;
+  background-color: #000000;
+  height: 224px;
+}
+.channel {
+  width: 130px;
+  height: 130px;
+  background-color: #444548;
+  border-radius: 20px;
+  position: relative;
+  left: 28px;
+  top: 38px;
+}
+.chennel_img {
+  width: 130px;
+  height: 130px;
+}
+.hot_Right_Now {
+  display: flex;
+  background-color: #000000;
+  gap: 10px;
+}
+
+.hot5 {
+  width: 338px;
+  height: 340px;
+  background-color: #000000;
+  border-radius: 20px;
+  position: relative;
+  left: 25px;
+}
+.hot5_last {
+  width: 338px;
+  height: 340px;
+  background-color: #000000;
+  border-radius: 20px;
+  position: absolute;
+  left: 1075px;
+}
+.hot4img {
+  width: 338px;
+  height: 340px;
+  border-radius: 12px;
+}
+.hoth1 p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+  background-color: #000000;
+}
+.hoth1 p span {
+  position: relative;
+  bottom: 25px;
+  left: 32px;
+}
+.score {
+  display: flex;
+  gap: 20px;
+  background: #000000;
+  width: 100%;
+  height: 250px;
+}
+.score_box {
+  width: 347px;
+  height: 181px;
+  background-color: #343536;
+  border-radius: 12px;
+  position: relative;
+  top: 22px;
+  left: 23px;
+}
+#score p span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+  background-color: #000000;
+  position: relative;
+  top: 12px;
+  left: 29px;
+}
+#para {
+  margin: 0;
+  background: black;
+  width: 100%;
+  height: 38px;
+  margin-top: -16px;
+}
+.scorep1 {
+  color: #aaabab;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.iplimg1 {
+  width: 32px;
+  height: 32px;
+  margin-left: 24px;
+  margin-top: 7px;
+}
+.iplh3 {
+  position: relative;
+  color: white;
+  bottom: 50px;
+  left: 70px;
+}
+.iplimg2 {
+  width: 32px;
+  height: 32px;
+  left: 24px;
+  top: -59px;
+  position: relative;
+}
+.iplh32 {
+  position: relative;
+  color: white;
+  top: -111px;
+  left: 70px;
+}
+.timeofipl {
+  color: #eed6a9;
+  position: relative;
+  bottom: 124px;
+  font-size: 11px;
+  left: 19px;
+  margin: 0;
+}
+hr {
+  position: relative;
+  width: 88%;
+  left: -2px;
+  bottom: 127px;
+}
+.iplcomformation {
+  display: flex;
+}
+.endORnot {
+  width: 78px;
+  height: 24px;
+  background-color: #000000;
+  color: white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  font-size: 12px;
+  position: relative;
+  bottom: 128px;
+  left: 18px;
+}
+.h3last {
+  position: relative;
+  color: white;
+  bottom: 145px;
+  font-size: 17px;
+  left: 95px;
+}
+.nolanMovies {
+  color: white;
+  background-color: #000000;
+  width: 100%;
+  height: 363px;
+}
+.Mbox {
+  width: 200px;
+  height: 271px;
+  border-radius: 13px;
+  position: relative;
+  left: 21px;
+}
+.nolanMovieBox {
+  display: flex;
+  gap: 10px;
+  background-color: #000000;
+  position: relative;
+  top: 15px;
+}
+.nolanMovies h3 {
+  position: relative;
+  margin: 0;
+  left: 31px;
+  font-family: sans-serif;
+  font-size: 23px;
+}
+.nolanMovieBoximg {
+  width: 199px;
+  border-radius: 10px;
+}
+footer {
+  width: 100%;
+  height: 258px;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstfooter {
+  background-color: #17181a;
+  width: 100%;
+  height: 197px;
+}
+.secFooter {
+  background-color: #202123;
+  width: 100%;
+  height: 82px;
+}
+.left_footer {
+  width: 50%;
+  display: flex;
+  top: 25px;
+}
+.left_footer h3 {
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.left_footer h2 {
+  color: white;
+  font-family: inherit;
+  font-size: 14px;
+  color: #d9d6e5;
+}
+
+.left_1 {
+  position: relative;
+  left: 27px;
+}
+.left_2 {
+  position: relative;
+  left: 47px;
+}
+.social div {
+  border-radius: 50%;
+  background-color: #333436;
+  width: 55px;
+  height: 55px;
+}
+.text-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  display: flex;
+  gap: 6px;
+}
+.right_footer {
+  width: 50%;
+  color: white;
+  float: right;
+  position: relative;
+  bottom: 168px;
+}
+.text-div h1 {
+  font-size: 27px;
+  font-weight: bold;
+}
+.svgdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h11 {
+  position: relative;
+  right: 118px;
+}
+.h12 {
+  position: relative;
+  right: 44px;
+}
+.deviceCOnnect {
+  display: flex;
+  width: 50%;
+  position: relative;
+  left: 274px;
+  bottom: 45px;
+  gap: 10px;
+}
+.secFooter img {
+  width: 56px;
+  position: relative;
+  left: 94%;
+  top: -14px;
+}
+.secFooter {
+  color: white;
+  font-size: 11px;
+}
+.secFooter h3 {
+  position: relative;
+  top: 54px;
+  left: 27px;
+}
+/* this is nun.html css */
+.main_image {
+  width: 100%;
+  height: 90vh;
+}
+.main_image img {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  object-position: 0 -5px;
+  height: 90vh;
+  opacity: 0.9;
+}
+.discription div button {
+  background-color: #dd58af;
+  border: none;
+  border-radius: 20px;
+  padding: 14px 31px;
+  color: white;
+  position: relative;
+  left: 58px;
+  top: 57px;
+}
+.discription {
+  width: 100%;
+  height: 150px;
+  display: flex;
+
+  position: absolute;
+  top: 477px;
+  gap: 131px;
+}
+.discription p {
+  color: #ababab;
+  font-size: 14px;
+  font-family: serif;
+  font-weight: 600;
+}
+.discription h1 {
+  color: white;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-image: black white;
+  font-size: 41px;
+  margin: 0;
+}
+.div3 {
+  height: 91px;
+  position: relative;
+  top: 28px;
+  font-size: 17px;
+}
+#play:hover {
+  background-color: #e79acc;
+  cursor: pointer;
+}
+#img1 {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  object-position: 1 5px;
+  height: 90vh;
+  opacity: 1;
+}
+#img12 {
+  object-position: 0px -75px;
+  height: 90vh;
+  opacity: 1;
+}
